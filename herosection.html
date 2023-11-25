@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herosection</title>
+  </head>
+  <style>
+    html {
+      font-family: sans-serif;
+      color: gray;
+    }
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    nav {
+      font-size: 18px;
+      font-weight: 700px;
+      display: flex;
+      justify-content: space-between;
+      /* background-color: green; */
+      padding-top: 30px;
+      padding-left: 18px;
+    }
+    header {
+      /* background-color: #e67e22; */
+      height: 100vh;
+      position: relative;
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(255, 255, 255, 0.6)
+        ),
+        url(hero.jpg);
+      background-size: cover; /*to cover the screen*/
+      color: #fff;
+    }
+    h1 {
+      font-size: 52px;
+      margin-bottom: 32px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 48px;
+    }
+    .btn:link,
+    btn:visited {
+      font-size: 20px;
+      background-color: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      padding: 16px 32px;
+      border-radius: 9px;
+    }
+    h2 {
+      font-size: 44px;
+      margin-bottom: 48px;
+    }
+    section {
+      padding: 96px 0px;
+      background-color: #f7f7f7;
+    }
+    .container {
+      width: 1200px;
+      margin: 0px auto;
+    }
+    .header-container {
+      width: 1200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      /* background-color: red; */
+      transform: translate(-50%, -50%);
+    }
+    .header-container-inner {
+      width: 50%;
+      /* background-color: purple; */
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="container">
+        <div>LOGO</div>
+        <div>NAVIGATION</div>
+      </nav>
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>The healthy meal delivered to your door, every single day</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut placeat
+            aperiam iusto consequuntur aliquam. Repellendus aliquid ratione
+            fugit
+          </p>
+          <a class="btn" href="a">start eating well</a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <h2>Some random heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+          ullam voluptatum fugit quisquam vitae, aperiam praesentium adipisci
+          ipsam quod ratione porro sit soluta in assumenda, ipsa blanditiis at
+          delectus necessitatibus!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
